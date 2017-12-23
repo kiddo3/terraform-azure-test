@@ -1,0 +1,4 @@
+storage_account_name  = "The storage account name (tf state)"
+container_name = "The container name"
+access_key = "The secret key"
+key = "The file name"
