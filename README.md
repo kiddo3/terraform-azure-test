@@ -6,9 +6,9 @@ Just an example of creating a vm in azure and installing saltstack minion using 
 
 Prerequisites
 -------------
-- An [azure account](https://portal.azure.com)
+- An [azure account](https://portal.azure.com).
 - [Terraform](https://www.terraform.io/intro/getting-started/install.html) software installed. 
-- An azure resource group already created
+- An azure resource group already created.
 - A storage account to save the terraform state file and create a Service Principal ([follow this tutorial](https://www.terraform.io/docs/providers/azurerm/authenticating_via_service_principal.html)).
 
 Configuration
@@ -31,7 +31,7 @@ $ terraform init -backend-config=backend_config.tfvars
 
 #### Switch to the workspace
 ```sh
-terraform workspace select DEV
+$ terraform workspace select DEV
 ```
 
 #### Create the plan
